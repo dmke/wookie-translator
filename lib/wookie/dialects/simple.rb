@@ -17,7 +17,7 @@ module Wookie::Dialect
     }.freeze
 
     # A short code is defined by a length of 1 of a lookup value.
-    SHORT_CODES = LOOKUP.map{|_,v| v if v.length == 1 }.compact.join
+    SHORT_CODES = LOOKUP.map{|_,v| v if v.length == 1 }.compact.sort.join
 
     # Translates an english string to wookiespeack.
     #
