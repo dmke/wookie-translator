@@ -2,7 +2,7 @@
 
 module Wookie
   # Semantic version
-  VERSION = '0.1.0'
+  VERSION = '0.1.1'
 
   autoload :Translator, 'wookie/translator'
   autoload :Dialect,    'wookie/dialect'
