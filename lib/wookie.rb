@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 module Wookie
+  # Semantic version
   VERSION = '0.1.0'
 
   autoload :Translator, 'wookie/translator'
