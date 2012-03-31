@@ -1,5 +1,7 @@
 # WookieTranslator
 
+[![Build Status](https://secure.travis-ci.org/dmke/wookie-translator.png)](http://travis-ci.org/dmke/wookie-translator)
+
 *2012/04/01*
 
 This gem is based on http://selarips.free.fr/wookieetranslator/ and built after
