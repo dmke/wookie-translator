@@ -42,8 +42,8 @@ class Wookie::CLI
   def initialize(argv)
     @argv = argv || ARGV
     @options = {
-      use_stdin: false,
-      dialect: :simple
+      :use_stdin => false,
+      :dialect => :simple
     }
     OptionParser.new do |opts|
       opts.banner = "Usage: wookie [options] string\n       wookie [options] -"
@@ -83,7 +83,7 @@ class Wookie::CLI
     else
       @argv.join(' ')
     end
-    t = Wookie::Translator.new(dialect: dialect)
+    t = Wookie::Translator.new(:dialect => dialect)
     puts t.send(@options[:translation], string)
   end
 end

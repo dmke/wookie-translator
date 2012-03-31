@@ -6,7 +6,7 @@ class Wookie::Translator
   # Contructor, defines the dialect ({Wookie::Dialect::Simple} by default).
   # @param [Hash] options The instance options.
   # @option options [#to_wookie,#from_wookie] :dialect A wookie dialect.
-  def initialize(options={ dialect: Wookie::Dialect::Simple })
+  def initialize(options={ :dialect => Wookie::Dialect::Simple })
     @dialect = options[:dialect].new
   end
 
