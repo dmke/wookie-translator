@@ -1,3 +1,11 @@
 #!/usr/bin/env ruby
 
-require 'WookieTranslator'
+require 'wookie'
+begin
+  Wookie::CLI.new(ARGV).run
+rescue => e
+  $stderr.puts "An error occured: #{e.message}"
+  raise
+  exit 1
+end
+exit 0

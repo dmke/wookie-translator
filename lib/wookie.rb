@@ -6,4 +6,5 @@ module Wookie
 
   autoload :Translator, 'wookie/translator'
   autoload :Dialect,    'wookie/dialect'
+  autoload :CLI,        'wookie/cli'
 end

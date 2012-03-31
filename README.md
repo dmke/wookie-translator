@@ -1,9 +1,9 @@
 # WookieTranslator
 
+*2012/04/01*
+
 This gem is based on http://selarips.free.fr/wookieetranslator/ and built after
 a tweet from [@MikeSwole](https://twitter.com/#!/MikeSwole/status/185882254432677888).
-
-Note the publishing date ;-)
 
 ## Installation
 
