@@ -55,7 +55,7 @@ If you want to use another wookie dialect, you want to inherit from
 
 The wookie translator lacks of translations for the three main dialects:
 Shyriiwook, Xaczik and Thykarann. If you are a native speaker (or at least
-familiar with one of those dialects), you're encoraged to follow these steps:
+familiar with one of those dialects), you're encouraged to follow these steps:
 
 1. Fork it
 2. Create your dialect branch (`git checkout -b dialect-X`)

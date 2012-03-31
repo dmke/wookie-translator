@@ -1,1 +1,1 @@
-lib/**/*.rb
+lib/**/*.rb --title WookieTranslator --private --protected
