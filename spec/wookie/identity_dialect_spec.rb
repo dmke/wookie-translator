@@ -8,7 +8,7 @@ end
 
 describe Wookie::Translator do
   before do
-    @t       = Wookie::Translator.new(dialect: IdentityDialect)
+    @t       = Wookie::Translator.new(:dialect => IdentityDialect)
     @english = 'enter your text here!'
     @wookie  = 'wowhaoworc rooohurc aowokao acworcwo!'
   end

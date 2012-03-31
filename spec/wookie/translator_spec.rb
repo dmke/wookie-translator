@@ -14,13 +14,13 @@ describe Wookie::Translator do
   end
 
   it "should translate with the simple default dialect (hash form)" do
-    t = Wookie::Translator.new dialect: Wookie::Dialect::Simple
+    t = Wookie::Translator.new :dialect => Wookie::Dialect::Simple
     t.to_wookie(@english).should eq(@wookie)
     t.from_wookie(@wookie).should eq(@english)
   end
 
   it "should raise a NotImplementedError if using an incomplete dialect" do
-    t = Wookie::Translator.new dialect: Wookie::Dialect::Base
+    t = Wookie::Translator.new :dialect => Wookie::Dialect::Base
     expect {
       t.to_wookie(@english).should eq(@wookie)
     }.to raise_error(NotImplementedError)
